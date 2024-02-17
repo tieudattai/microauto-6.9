@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{34AE09F2-9DCA-43A5-B133-A87163F6C971}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MicroAuto_6._0.Properties</RootNamespace>
+    <AssemblyName>MicroAuto 6.0</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>MicroAuto 6.0.ico</ApplicationIcon>
+    <StartupObject>s</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="a.cs" />
+    <Compile Include="b.cs" />
+    <Compile Include="c.cs" />
+    <Compile Include="d.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="d.Designer.cs">
+      <DependentUpon>d.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DotfuscatorAttribute.cs" />
+    <Compile Include="e.cs" />
+    <Compile Include="f.cs" />
+    <Compile Include="g.cs" />
+    <Compile Include="h.cs" />
+    <Compile Include="i.cs" />
+    <Compile Include="j.cs" />
+    <Compile Include="k.cs" />
+    <Compile Include="l.cs" />
+    <Compile Include="m.cs" />
+    <Compile Include="n.cs" />
+    <Compile Include="o.cs" />
+    <Compile Include="o.Designer.cs">
+      <DependentUpon>o.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="p.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="q.cs" />
+    <Compile Include="r.cs" />
+    <Compile Include="Resources.cs" />
+    <Compile Include="s.cs" />
+    <Compile Include="t.cs" />
+    <Compile Include="u.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="u.Designer.cs">
+      <DependentUpon>u.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="d.resources" />
+    <EmbeddedResource Include="Resources.resources" />
+    <EmbeddedResource Include="u.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="o.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>o.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

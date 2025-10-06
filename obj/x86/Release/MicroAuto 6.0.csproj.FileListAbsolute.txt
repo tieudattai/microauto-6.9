@@ -1,0 +1,4 @@
+E:\6.9\bin\x86\Release\MicroAuto 6.0.exe
+E:\6.9\bin\x86\Release\MicroAuto 6.0.pdb
+E:\6.9\obj\x86\Release\MicroAuto 6.0.exe
+E:\6.9\obj\x86\Release\MicroAuto 6.0.pdb

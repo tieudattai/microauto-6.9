@@ -1,7 +1,7 @@
-﻿// Token: 0x0200000C RID: 12
+
 public partial class FormMain : global::System.Windows.Forms.Form
 {
-	// Token: 0x060000DE RID: 222 RVA: 0x00007C70 File Offset: 0x00005E70
+	
 	private void InitializeComponent()
 	{
 		this.icontainer_0 = new global::System.ComponentModel.Container();
@@ -1084,10 +1084,10 @@ public partial class FormMain : global::System.Windows.Forms.Form
 		this.timer_0.Enabled = true;
 		this.timer_0.Interval = 1000;
 		this.timer_0.Tick += new global::System.EventHandler(this.timer_0_Tick);
-		//this.imageList_0.ImageStream = (global::System.Windows.Forms.ImageListStreamer)componentResourceManager.GetObject("imageList1.ImageStream");
+		
 		this.imageList_0.TransparentColor = global::System.Drawing.Color.Transparent;
-		//this.imageList_0.Images.SetKeyName(0, "dragon.ico");
-		//this.imageList_0.Images.SetKeyName(1, "dragonPause.ico");
+		
+		
 		this.notifyIcon_0.ContextMenuStrip = this.contextMenuStripNotifyIcon;
 		this.notifyIcon_0.Text = "MicroAuto";
 		this.notifyIcon_0.Visible = true;
@@ -1199,327 +1199,327 @@ public partial class FormMain : global::System.Windows.Forms.Form
 		base.PerformLayout();
 	}
 
-	// Token: 0x04000060 RID: 96
+	
 	private global::System.ComponentModel.IContainer icontainer_0;
 
-	// Token: 0x04000061 RID: 97
+	
 	private global::System.Windows.Forms.ListView listViewGame;
 
-	// Token: 0x04000062 RID: 98
+	
 	private global::System.Windows.Forms.ColumnHeader columnHeader_0;
 
-	// Token: 0x04000063 RID: 99
+	
 	private global::System.Windows.Forms.TabControl tabControl1;
 
-	// Token: 0x04000064 RID: 100
+	
 	private global::System.Windows.Forms.TabPage tabPageAcc;
 
-	// Token: 0x04000065 RID: 101
+	
 	private global::System.Windows.Forms.TabPage tabPageConfig;
 
-	// Token: 0x04000066 RID: 102
+	
 	private global::System.Windows.Forms.CheckBox isSkill;
 
-	// Token: 0x04000067 RID: 103
+	
 	private global::System.Windows.Forms.CheckBox f1Enable;
 
-	// Token: 0x04000068 RID: 104
+	
 	private global::System.Windows.Forms.NumericUpDown f12Delay;
 
-	// Token: 0x04000069 RID: 105
+	
 	private global::System.Windows.Forms.CheckBox f12Enable;
 
-	// Token: 0x0400006A RID: 106
+	
 	private global::System.Windows.Forms.NumericUpDown f11Delay;
 
-	// Token: 0x0400006B RID: 107
+	
 	private global::System.Windows.Forms.CheckBox f11Enable;
 
-	// Token: 0x0400006C RID: 108
+	
 	private global::System.Windows.Forms.NumericUpDown f10Delay;
 
-	// Token: 0x0400006D RID: 109
+	
 	private global::System.Windows.Forms.CheckBox f10Enable;
 
-	// Token: 0x0400006E RID: 110
+	
 	private global::System.Windows.Forms.NumericUpDown f9Delay;
 
-	// Token: 0x0400006F RID: 111
+	
 	private global::System.Windows.Forms.CheckBox f9Enable;
 
-	// Token: 0x04000070 RID: 112
+	
 	private global::System.Windows.Forms.NumericUpDown f8Delay;
 
-	// Token: 0x04000071 RID: 113
+	
 	private global::System.Windows.Forms.CheckBox f8Enable;
 
-	// Token: 0x04000072 RID: 114
+	
 	private global::System.Windows.Forms.NumericUpDown f7Delay;
 
-	// Token: 0x04000073 RID: 115
+	
 	private global::System.Windows.Forms.CheckBox f7Enable;
 
-	// Token: 0x04000074 RID: 116
+	
 	private global::System.Windows.Forms.NumericUpDown f6Delay;
 
-	// Token: 0x04000075 RID: 117
+	
 	private global::System.Windows.Forms.CheckBox f6Enable;
 
-	// Token: 0x04000076 RID: 118
+	
 	private global::System.Windows.Forms.NumericUpDown f5Delay;
 
-	// Token: 0x04000077 RID: 119
+	
 	private global::System.Windows.Forms.CheckBox f5Enable;
 
-	// Token: 0x04000078 RID: 120
+	
 	private global::System.Windows.Forms.NumericUpDown f4Delay;
 
-	// Token: 0x04000079 RID: 121
+	
 	private global::System.Windows.Forms.CheckBox f4Enable;
 
-	// Token: 0x0400007A RID: 122
+	
 	private global::System.Windows.Forms.NumericUpDown f3Delay;
 
-	// Token: 0x0400007B RID: 123
+	
 	private global::System.Windows.Forms.CheckBox f3Enable;
 
-	// Token: 0x0400007C RID: 124
+	
 	private global::System.Windows.Forms.NumericUpDown f2Delay;
 
-	// Token: 0x0400007D RID: 125
+	
 	private global::System.Windows.Forms.CheckBox f2Enable;
 
-	// Token: 0x0400007E RID: 126
+	
 	private global::System.Windows.Forms.NumericUpDown f1Delay;
 
-	// Token: 0x0400007F RID: 127
+	
 	private global::System.Windows.Forms.Panel panelSkill;
 
-	// Token: 0x04000080 RID: 128
+	
 	private global::System.Windows.Forms.ContextMenuStrip contextMenuStripListView;
 
-	// Token: 0x04000081 RID: 129
+	
 	private global::System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_0;
 
-	// Token: 0x04000082 RID: 130
+	
 	private global::System.Windows.Forms.Label info;
 
-	// Token: 0x04000083 RID: 131
+	
 	private global::System.Windows.Forms.Timer timer_0;
 
-	// Token: 0x04000084 RID: 132
+	
 	private global::System.Windows.Forms.NumericUpDown buffPetPercent;
 
-	// Token: 0x04000085 RID: 133
+	
 	private global::System.Windows.Forms.ComboBox buffPetKey;
 
-	// Token: 0x04000086 RID: 134
+	
 	private global::System.Windows.Forms.CheckBox buffPetEnable;
 
-	// Token: 0x04000087 RID: 135
+	
 	private global::System.Windows.Forms.CheckBox buffHPEnable;
 
-	// Token: 0x04000088 RID: 136
+	
 	private global::System.Windows.Forms.ComboBox buffHPKey;
 
-	// Token: 0x04000089 RID: 137
+	
 	private global::System.Windows.Forms.NumericUpDown buffHPPercent;
 
-	// Token: 0x0400008A RID: 138
+	
 	private global::System.Windows.Forms.CheckBox buffMPEnable;
 
-	// Token: 0x0400008B RID: 139
+	
 	private global::System.Windows.Forms.ComboBox buffMPKey;
 
-	// Token: 0x0400008C RID: 140
+	
 	private global::System.Windows.Forms.NumericUpDown buffMPPercent;
 
-	// Token: 0x0400008D RID: 141
+	
 	private global::System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_1;
 
-	// Token: 0x0400008E RID: 142
+	
 	private global::System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_2;
 
-	// Token: 0x0400008F RID: 143
+	
 	private global::System.Windows.Forms.CheckBox farmEnable;
 
-	// Token: 0x04000090 RID: 144
+	
 	private global::System.Windows.Forms.Button button1;
 
-	// Token: 0x04000091 RID: 145
+	
 	private global::System.Windows.Forms.Panel panel1;
 
-	// Token: 0x04000092 RID: 146
+	
 	private global::System.Windows.Forms.RadioButton farmBack;
 
-	// Token: 0x04000093 RID: 147
+	
 	private global::System.Windows.Forms.RadioButton farmGo;
 
-	// Token: 0x04000094 RID: 148
+	
 	private global::System.Windows.Forms.ImageList imageList_0;
 
-	// Token: 0x04000095 RID: 149
+	
 	private global::System.Windows.Forms.CheckBox topMost;
 
-	// Token: 0x04000096 RID: 150
+	
 	private global::System.Windows.Forms.CheckBox shutdownAfterKill;
 
-	// Token: 0x04000097 RID: 151
+	
 	private global::System.Windows.Forms.TabPage tabPageInfo;
 
-	// Token: 0x04000098 RID: 152
+	
 	private global::System.Windows.Forms.CheckBox exitWhenHPLow;
 
-	// Token: 0x04000099 RID: 153
+	
 	private global::System.Windows.Forms.NumericUpDown exitWhenHPLowPercent;
 
-	// Token: 0x0400009A RID: 154
+	
 	private global::System.Windows.Forms.GroupBox groupBox1;
 
-	// Token: 0x0400009B RID: 155
+	
 	private global::System.Windows.Forms.Button openMusic;
 
-	// Token: 0x0400009C RID: 156
+	
 	private global::System.Windows.Forms.TextBox musicPath;
 
-	// Token: 0x0400009D RID: 157
+	
 	private global::System.Windows.Forms.Button stopMusic;
 
-	// Token: 0x0400009E RID: 158
+	
 	private global::System.Windows.Forms.Button playMusic;
 
-	// Token: 0x0400009F RID: 159
+	
 	private global::System.Windows.Forms.NotifyIcon notifyIcon_0;
 
-	// Token: 0x040000A0 RID: 160
+	
 	private global::System.Windows.Forms.Label label1;
 
-	// Token: 0x040000A1 RID: 161
+	
 	private global::System.Windows.Forms.NumericUpDown onlyAttackFixHPMaxPercent;
 
-	// Token: 0x040000A2 RID: 162
+	
 	private global::System.Windows.Forms.NumericUpDown onlyAttackFixHPMinPercent;
 
-	// Token: 0x040000A3 RID: 163
+	
 	private global::System.Windows.Forms.CheckBox onlyAttackFixHP;
 
-	// Token: 0x040000A4 RID: 164
+	
 	private global::System.Windows.Forms.ToolTip toolTip_0;
 
-	// Token: 0x040000A5 RID: 165
+	
 	private global::System.Windows.Forms.WebBrowser webBrowser1;
 
-	// Token: 0x040000A6 RID: 166
+	
 	private global::System.Windows.Forms.ContextMenuStrip contextMenuStripNotifyIcon;
 
-	// Token: 0x040000A7 RID: 167
+	
 	private global::System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_3;
 
-	// Token: 0x040000A8 RID: 168
+	
 	private global::System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_4;
 
-	// Token: 0x040000A9 RID: 169
+	
 	private global::System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
 
-	// Token: 0x040000AA RID: 170
+	
 	private global::System.Windows.Forms.ToolStripMenuItem resetAutoToolStripMenuItem;
 
-	// Token: 0x040000AB RID: 171
+	
 	private global::System.Windows.Forms.LinkLabel linkLabel1;
 
-	// Token: 0x040000AC RID: 172
+	
 	private global::System.Windows.Forms.Label label2;
 
-	// Token: 0x040000AD RID: 173
+	
 	private global::System.Windows.Forms.CheckBox radius;
 
-	// Token: 0x040000AE RID: 174
+	
 	private global::System.Windows.Forms.NumericUpDown radiusValue;
 
-	// Token: 0x040000AF RID: 175
+	
 	private global::System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_5;
 
-	// Token: 0x040000B0 RID: 176
+	
 	private global::System.Windows.Forms.Button enterExpMax;
 
-	// Token: 0x040000B1 RID: 177
+	
 	private global::System.Windows.Forms.Button resetExpCaculator;
 
-	// Token: 0x040000B2 RID: 178
+	
 	private global::System.Windows.Forms.Label label4;
 
-	// Token: 0x040000B3 RID: 179
+	
 	private global::System.Windows.Forms.Label label3;
 
-	// Token: 0x040000B4 RID: 180
+	
 	private global::System.Windows.Forms.ComboBox targetKey;
 
-	// Token: 0x040000B5 RID: 181
+	
 	private global::System.Windows.Forms.ComboBox baseSkill;
 
-	// Token: 0x040000B6 RID: 182
+	
 	private global::System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_6;
 
-	// Token: 0x040000B7 RID: 183
+	
 	private global::System.Windows.Forms.Label charName;
 
-	// Token: 0x040000B8 RID: 184
+	
 	private global::System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_7;
 
-	// Token: 0x040000B9 RID: 185
+	
 	private global::System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_8;
 
-	// Token: 0x040000BA RID: 186
+	
 	private global::System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_9;
 
-	// Token: 0x040000BB RID: 187
+	
 	private global::System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_10;
 
-	// Token: 0x040000BC RID: 188
+	
 	private global::System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_11;
 
-	// Token: 0x040000BD RID: 189
+	
 	private global::System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_12;
 
-	// Token: 0x040000BE RID: 190
+	
 	private global::System.Windows.Forms.Timer timer_1;
 
-	// Token: 0x040000BF RID: 191
+	
 	private global::System.Windows.Forms.ColumnHeader columnHeader_1;
 
-	// Token: 0x040000C0 RID: 192
+	
 	private global::System.Windows.Forms.ColumnHeader columnHeader_2;
 
-	// Token: 0x040000C1 RID: 193
+	
 	private global::System.Windows.Forms.ColumnHeader columnHeader_3;
 
-	// Token: 0x040000C2 RID: 194
+	
 	private global::System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
 
-	// Token: 0x040000C3 RID: 195
+	
 	private global::System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
 
-	// Token: 0x040000C4 RID: 196
+	
 	private global::System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
 
-	// Token: 0x040000C5 RID: 197
+	
 	private global::System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
 
-	// Token: 0x040000C6 RID: 198
+	
 	private global::System.Windows.Forms.ColumnHeader columnHeader_4;
 
-	// Token: 0x040000C7 RID: 199
+	
 	private global::System.Windows.Forms.Button testAlarm;
 
-	// Token: 0x040000C8 RID: 200
+	
 	private global::System.Windows.Forms.CheckBox lure;
 
-	// Token: 0x040000C9 RID: 201
+	
 	private global::System.Windows.Forms.ColumnHeader columnHeader_5;
 
-	// Token: 0x040000CA RID: 202
+	
 	private global::System.Windows.Forms.ToolStripMenuItem lToolStripMenuItem;
 
-	// Token: 0x040000CB RID: 203
+	
 	private global::System.Windows.Forms.Label label5;
 }

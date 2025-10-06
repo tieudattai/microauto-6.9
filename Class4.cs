@@ -1,25 +1,25 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
-// Token: 0x02000008 RID: 8
+
 internal class Class4
 {
-	// Token: 0x06000073 RID: 115 RVA: 0x000044F0 File Offset: 0x000026F0
+	
 	public static int smethod_0()
 	{
 		return Screen.PrimaryScreen.Bounds.Width;
 	}
 
-	// Token: 0x06000074 RID: 116 RVA: 0x00004510 File Offset: 0x00002710
+	
 	public static int smethod_1()
 	{
 		return Screen.PrimaryScreen.Bounds.Height;
 	}
 
-	// Token: 0x06000075 RID: 117 RVA: 0x00004530 File Offset: 0x00002730
+	
 	public static string smethod_2(string string_0)
 	{
 		string_0 = Regex.Replace(string_0, "Õ", "ạ");
@@ -127,7 +127,7 @@ internal class Class4
 		return Class4.smethod_3(string_0);
 	}
 
-	// Token: 0x06000076 RID: 118 RVA: 0x00004C70 File Offset: 0x00002E70
+	
 	public static string smethod_3(string string_0)
 	{
 		StringBuilder stringBuilder = new StringBuilder();
@@ -142,7 +142,7 @@ internal class Class4
 		return stringBuilder.ToString();
 	}
 
-	// Token: 0x06000077 RID: 119 RVA: 0x00004CB0 File Offset: 0x00002EB0
+	
 	public static IntPtr smethod_4(int int_0)
 	{
 		foreach (Process process in Process.GetProcesses())
@@ -155,7 +155,7 @@ internal class Class4
 		return IntPtr.Zero;
 	}
 
-	// Token: 0x06000078 RID: 120 RVA: 0x00004CF0 File Offset: 0x00002EF0
+	
 	public static bool smethod_5(int int_0)
 	{
 		foreach (Process process in Process.GetProcesses())
@@ -168,7 +168,7 @@ internal class Class4
 		return false;
 	}
 
-	// Token: 0x06000079 RID: 121 RVA: 0x00002CB9 File Offset: 0x00000EB9
+	
 	public static void smethod_6(IntPtr intptr_0)
 	{
 		if (Class5.GetForegroundWindow() != intptr_0)

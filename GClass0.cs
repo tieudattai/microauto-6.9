@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
@@ -6,35 +6,35 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
-// Token: 0x0200000B RID: 11
+
 public class GClass0
 {
-	// Token: 0x06000083 RID: 131 RVA: 0x00002CD8 File Offset: 0x00000ED8
+	
 	public ulong method_0()
 	{
 		return this.ulong_0;
 	}
 
-	// Token: 0x06000084 RID: 132 RVA: 0x00002CE0 File Offset: 0x00000EE0
+	
 	public void method_1(ulong ulong_1)
 	{
 		this.ulong_0 = ulong_1;
 		Class8.smethod_8(this.method_40(), ulong_1);
 	}
 
-	// Token: 0x06000085 RID: 133 RVA: 0x00004D28 File Offset: 0x00002F28
+	
 	public int method_2()
 	{
 		return (int)Math.Sqrt(Math.Pow((double)(this.method_13() - this.int_4), 2.0) + Math.Pow((double)(this.method_17() - this.int_5), 2.0));
 	}
 
-	// Token: 0x06000086 RID: 134 RVA: 0x00004D74 File Offset: 0x00002F74
+	
 	public int method_3()
 	{
 		return (int)Math.Sqrt(Math.Pow((double)(this.method_20() - (float)this.int_4), 2.0) + Math.Pow((double)(this.method_21() - (float)this.int_5), 2.0));
 	}
 
-	// Token: 0x06000087 RID: 135 RVA: 0x00004DC4 File Offset: 0x00002FC4
+	
 	public string method_4()
 	{
 		if (!this.bool_10)
@@ -50,7 +50,7 @@ public class GClass0
 		});
 	}
 
-	// Token: 0x06000088 RID: 136 RVA: 0x00004E18 File Offset: 0x00003018
+	
 	public uint method_5()
 	{
 		if ((long)this.method_41() <= (long)((ulong)this.uint_0))
@@ -60,13 +60,13 @@ public class GClass0
 		return (uint)((double)((long)this.method_41() - (long)((ulong)this.uint_0)) / (this.stopwatch_8.Elapsed.TotalSeconds + 1.0) * 3600.0);
 	}
 
-	// Token: 0x06000089 RID: 137 RVA: 0x00002CF5 File Offset: 0x00000EF5
+	
 	public bool method_6()
 	{
 		return this.bool_7;
 	}
 
-	// Token: 0x0600008A RID: 138 RVA: 0x00002CFD File Offset: 0x00000EFD
+	
 	public void method_7(bool bool_14)
 	{
 		if (!bool_14)
@@ -80,7 +80,7 @@ public class GClass0
 		this.bool_7 = bool_14;
 	}
 
-	// Token: 0x0600008B RID: 139 RVA: 0x00004E70 File Offset: 0x00003070
+	
 	public int method_8()
 	{
 		if (this.stopwatch_4.Elapsed.TotalMinutes < 10.0)
@@ -94,7 +94,7 @@ public class GClass0
 		return 3;
 	}
 
-	// Token: 0x0600008C RID: 140 RVA: 0x00004EC0 File Offset: 0x000030C0
+	
 	public void method_9(int int_20, int int_21)
 	{
 		if (!GClass0.bool_1 && (this.method_39() != 2 || this.string_5.Equals("")))
@@ -116,7 +116,7 @@ public class GClass0
 		}
 	}
 
-	// Token: 0x0600008D RID: 141 RVA: 0x00004F5C File Offset: 0x0000315C
+	
 	public void method_10()
 	{
 		new Class5(this.intptr_0);
@@ -140,7 +140,7 @@ public class GClass0
 		GClass0.bool_1 = false;
 	}
 
-	// Token: 0x0600008E RID: 142 RVA: 0x00004FF4 File Offset: 0x000031F4
+	
 	public int method_11()
 	{
 		return this.class7_0.method_1(new int[]
@@ -150,55 +150,55 @@ public class GClass0
 		});
 	}
 
-	// Token: 0x0600008F RID: 143 RVA: 0x00002D17 File Offset: 0x00000F17
+	
 	public int method_12()
 	{
 		return this.method_11() + 92;
 	}
 
-	// Token: 0x06000090 RID: 144 RVA: 0x00002D22 File Offset: 0x00000F22
+	
 	public int method_13()
 	{
 		return (int)this.class7_0.method_3(this.method_11() + 92);
 	}
 
-	// Token: 0x06000091 RID: 145 RVA: 0x00002D39 File Offset: 0x00000F39
+	
 	public int method_14()
 	{
 		return (int)this.class7_0.method_3(this.method_11() + 408);
 	}
 
-	// Token: 0x06000092 RID: 146 RVA: 0x00002D53 File Offset: 0x00000F53
+	
 	public int method_15()
 	{
 		return (int)this.class7_0.method_3(this.method_11() + 68);
 	}
 
-	// Token: 0x06000093 RID: 147 RVA: 0x00002D6A File Offset: 0x00000F6A
+	
 	public int method_16()
 	{
 		return this.method_11() + 100;
 	}
 
-	// Token: 0x06000094 RID: 148 RVA: 0x00002D75 File Offset: 0x00000F75
+	
 	public int method_17()
 	{
 		return (int)this.class7_0.method_3(this.method_11() + 100);
 	}
 
-	// Token: 0x06000095 RID: 149 RVA: 0x00002D8C File Offset: 0x00000F8C
+	
 	public int method_18()
 	{
 		return (int)this.class7_0.method_3(this.method_11() + 412);
 	}
 
-	// Token: 0x06000096 RID: 150 RVA: 0x00002DA6 File Offset: 0x00000FA6
+	
 	public int method_19()
 	{
 		return (int)this.class7_0.method_3(this.method_11() + 76);
 	}
 
-	// Token: 0x06000097 RID: 151 RVA: 0x00005024 File Offset: 0x00003224
+	
 	public float method_20()
 	{
 		if (!this.method_47())
@@ -422,7 +422,7 @@ public class GClass0
 		return 0f;
 	}
 
-	// Token: 0x06000098 RID: 152 RVA: 0x00005560 File Offset: 0x00003760
+	
 	public float method_21()
 	{
 		if (!this.method_47())
@@ -646,79 +646,79 @@ public class GClass0
 		return 0f;
 	}
 
-	// Token: 0x06000099 RID: 153 RVA: 0x00002DBD File Offset: 0x00000FBD
+	
 	private void timer_0_Tick(object sender, EventArgs e)
 	{
 		this.method_22("F1");
 	}
 
-	// Token: 0x0600009A RID: 154 RVA: 0x00002DCA File Offset: 0x00000FCA
+	
 	private void timer_1_Tick(object sender, EventArgs e)
 	{
 		this.method_22("F2");
 	}
 
-	// Token: 0x0600009B RID: 155 RVA: 0x00002DD7 File Offset: 0x00000FD7
+	
 	private void timer_2_Tick(object sender, EventArgs e)
 	{
 		this.method_22("F3");
 	}
 
-	// Token: 0x0600009C RID: 156 RVA: 0x00002DE4 File Offset: 0x00000FE4
+	
 	private void timer_3_Tick(object sender, EventArgs e)
 	{
 		this.method_22("F4");
 	}
 
-	// Token: 0x0600009D RID: 157 RVA: 0x00002DF1 File Offset: 0x00000FF1
+	
 	private void timer_4_Tick(object sender, EventArgs e)
 	{
 		this.method_22("F5");
 	}
 
-	// Token: 0x0600009E RID: 158 RVA: 0x00002DFE File Offset: 0x00000FFE
+	
 	private void timer_5_Tick(object sender, EventArgs e)
 	{
 		this.method_22("F6");
 	}
 
-	// Token: 0x0600009F RID: 159 RVA: 0x00002E0B File Offset: 0x0000100B
+	
 	private void timer_6_Tick(object sender, EventArgs e)
 	{
 		this.method_22("F7");
 	}
 
-	// Token: 0x060000A0 RID: 160 RVA: 0x00002E18 File Offset: 0x00001018
+	
 	private void timer_7_Tick(object sender, EventArgs e)
 	{
 		this.method_22("F8");
 	}
 
-	// Token: 0x060000A1 RID: 161 RVA: 0x00002E25 File Offset: 0x00001025
+	
 	private void timer_8_Tick(object sender, EventArgs e)
 	{
 		this.method_22("F9");
 	}
 
-	// Token: 0x060000A2 RID: 162 RVA: 0x00002E32 File Offset: 0x00001032
+	
 	private void timer_9_Tick(object sender, EventArgs e)
 	{
 		this.method_22("F10");
 	}
 
-	// Token: 0x060000A3 RID: 163 RVA: 0x00002E3F File Offset: 0x0000103F
+	
 	private void timer_10_Tick(object sender, EventArgs e)
 	{
 		this.method_22("F11");
 	}
 
-	// Token: 0x060000A4 RID: 164 RVA: 0x00002E4C File Offset: 0x0000104C
+	
 	private void timer_11_Tick(object sender, EventArgs e)
 	{
 		this.method_22("F12");
 	}
 
-	// Token: 0x060000A5 RID: 165 RVA: 0x00002E59 File Offset: 0x00001059
+	
 	private void method_22(string string_7)
 	{
 		if (GClass0.bool_0 || !this.bool_11 || this.bool_5)
@@ -732,7 +732,7 @@ public class GClass0
 		this.method_54(string_7);
 	}
 
-	// Token: 0x060000A6 RID: 166 RVA: 0x00005A9C File Offset: 0x00003C9C
+	
 	private void timer_13_Tick(object sender, EventArgs e)
 	{
 		int num = this.method_43();
@@ -747,7 +747,7 @@ public class GClass0
 		this.int_15 = 0;
 	}
 
-	// Token: 0x060000A7 RID: 167 RVA: 0x00005B04 File Offset: 0x00003D04
+	
 	private void timer_14_Tick(object sender, EventArgs e)
 	{
 		int num = this.method_33();
@@ -759,7 +759,7 @@ public class GClass0
 		}
 	}
 
-	// Token: 0x060000A8 RID: 168 RVA: 0x00005B60 File Offset: 0x00003D60
+	
 	private void timer_15_Tick(object sender, EventArgs e)
 	{
 		int num = this.method_36();
@@ -771,7 +771,7 @@ public class GClass0
 		}
 	}
 
-	// Token: 0x060000A9 RID: 169 RVA: 0x00005BBC File Offset: 0x00003DBC
+	
 	private void timer_17_Tick(object sender, EventArgs e)
 	{
 		if (this.method_49() && !this.bool_5)
@@ -798,7 +798,7 @@ public class GClass0
 		}
 	}
 
-	// Token: 0x060000AA RID: 170 RVA: 0x00005C8C File Offset: 0x00003E8C
+	
 	private void timer_12_Tick(object sender, EventArgs e)
 	{
 		int num = this.method_39();
@@ -877,7 +877,7 @@ public class GClass0
 		}
 	}
 
-	// Token: 0x060000AB RID: 171 RVA: 0x00002E94 File Offset: 0x00001094
+	
 	private void method_23()
 	{
 		this.method_54(this.string_2);
@@ -885,7 +885,7 @@ public class GClass0
 		this.stopwatch_5.Start();
 	}
 
-	// Token: 0x060000AC RID: 172 RVA: 0x00002EB8 File Offset: 0x000010B8
+	
 	private void method_24()
 	{
 		this.stopwatch_6.Reset();
@@ -893,7 +893,7 @@ public class GClass0
 		this.method_22(this.string_0);
 	}
 
-	// Token: 0x060000AD RID: 173 RVA: 0x00005E1C File Offset: 0x0000401C
+	
 	private void timer_16_Tick(object sender, EventArgs e)
 	{
 		if (!Class4.smethod_5(this.int_12) && GClass0.gdelegate1_0 != null)
@@ -950,7 +950,7 @@ public class GClass0
 		}
 	}
 
-	// Token: 0x060000AE RID: 174 RVA: 0x00002EDC File Offset: 0x000010DC
+	
 	private void timer_19_Tick(object sender, EventArgs e)
 	{
 		if (this.method_33() > 0 && this.method_33() < this.int_8)
@@ -959,7 +959,7 @@ public class GClass0
 		}
 	}
 
-	// Token: 0x060000AF RID: 175 RVA: 0x00005FD4 File Offset: 0x000041D4
+	
 	private void timer_18_Tick(object sender, EventArgs e)
 	{
 		if (!this.bool_12 && this.method_39() == 0)
@@ -1047,7 +1047,7 @@ public class GClass0
 		}
 	}
 
-	// Token: 0x060000B0 RID: 176 RVA: 0x00002EFB File Offset: 0x000010FB
+	
 	private void timer_16_Tick_1(object sender, EventArgs e)
 	{
 		if (this.method_40() < 1)
@@ -1058,7 +1058,7 @@ public class GClass0
 		this.timer_16.Tick -= this.timer_16_Tick_1;
 	}
 
-	// Token: 0x060000B1 RID: 177 RVA: 0x000063CC File Offset: 0x000045CC
+	
 	public int method_25()
 	{
 		return this.class7_0.method_1(new int[]
@@ -1068,13 +1068,13 @@ public class GClass0
 		});
 	}
 
-	// Token: 0x060000B2 RID: 178 RVA: 0x00002F2F File Offset: 0x0000112F
+	
 	public int method_26()
 	{
 		return this.class7_0.method_0(this.method_25() + 8);
 	}
 
-	// Token: 0x060000B3 RID: 179 RVA: 0x000063FC File Offset: 0x000045FC
+	
 	public string method_27()
 	{
 		if (!(this.class7_0.method_5(this.class7_0.method_0(this.method_25() + 96)) == ""))
@@ -1084,13 +1084,13 @@ public class GClass0
 		return this.class7_0.method_5(this.method_25() + 96);
 	}
 
-	// Token: 0x060000B4 RID: 180 RVA: 0x00002F44 File Offset: 0x00001144
+	
 	public int method_28()
 	{
 		return this.class7_0.method_0(this.method_25() + 160);
 	}
 
-	// Token: 0x060000B5 RID: 181 RVA: 0x00002F5D File Offset: 0x0000115D
+	
 	public int method_29()
 	{
 		return this.class7_0.method_1(new int[]
@@ -1102,25 +1102,25 @@ public class GClass0
 		});
 	}
 
-	// Token: 0x060000B6 RID: 182 RVA: 0x00002F7B File Offset: 0x0000117B
+	
 	public int method_30()
 	{
 		return this.class7_0.method_0(this.method_29() + 16);
 	}
 
-	// Token: 0x060000B7 RID: 183 RVA: 0x00002F91 File Offset: 0x00001191
+	
 	public int method_31()
 	{
 		return this.class7_0.method_0(this.method_29() + 2292);
 	}
 
-	// Token: 0x060000B8 RID: 184 RVA: 0x00002FAA File Offset: 0x000011AA
+	
 	public int method_32()
 	{
 		return this.class7_0.method_0(this.method_29() + 2400);
 	}
 
-	// Token: 0x060000B9 RID: 185 RVA: 0x00002FC3 File Offset: 0x000011C3
+	
 	public int method_33()
 	{
 		if (this.method_32() == 0)
@@ -1130,19 +1130,19 @@ public class GClass0
 		return (int)((float)this.method_31() * 100f / (float)this.method_32());
 	}
 
-	// Token: 0x060000BA RID: 186 RVA: 0x00002FE6 File Offset: 0x000011E6
+	
 	public int method_34()
 	{
 		return this.class7_0.method_0(this.method_29() + 2296);
 	}
 
-	// Token: 0x060000BB RID: 187 RVA: 0x00002FFF File Offset: 0x000011FF
+	
 	public int method_35()
 	{
 		return this.class7_0.method_0(this.method_29() + 2404);
 	}
 
-	// Token: 0x060000BC RID: 188 RVA: 0x00003018 File Offset: 0x00001218
+	
 	public int method_36()
 	{
 		if (this.method_35() == 0)
@@ -1152,13 +1152,13 @@ public class GClass0
 		return (int)(100f * (float)this.method_34() / (float)this.method_35());
 	}
 
-	// Token: 0x060000BD RID: 189 RVA: 0x0000303B File Offset: 0x0000123B
+	
 	public int method_37()
 	{
 		return this.class7_0.method_0(this.method_29() + 2356);
 	}
 
-	// Token: 0x060000BE RID: 190 RVA: 0x00006468 File Offset: 0x00004668
+	
 	public string method_38()
 	{
 		string text = this.class7_0.method_5(this.method_29() + 48);
@@ -1169,7 +1169,7 @@ public class GClass0
 		return text;
 	}
 
-	// Token: 0x060000BF RID: 191 RVA: 0x00003054 File Offset: 0x00001254
+	
 	public int method_39()
 	{
 		return this.class7_0.method_1(new int[]
@@ -1180,19 +1180,19 @@ public class GClass0
 		});
 	}
 
-	// Token: 0x060000C0 RID: 192 RVA: 0x00003072 File Offset: 0x00001272
+	
 	public int method_40()
 	{
 		return this.class7_0.method_0(this.method_29() + 92);
 	}
 
-	// Token: 0x060000C1 RID: 193 RVA: 0x00003088 File Offset: 0x00001288
+	
 	public int method_41()
 	{
 		return this.class7_0.method_0(this.method_29() + 2300);
 	}
 
-	// Token: 0x060000C2 RID: 194 RVA: 0x000064A0 File Offset: 0x000046A0
+	
 	public int method_42()
 	{
 		return this.class7_0.method_1(new int[]
@@ -1202,7 +1202,7 @@ public class GClass0
 		});
 	}
 
-	// Token: 0x060000C3 RID: 195 RVA: 0x000064D0 File Offset: 0x000046D0
+	
 	public int method_43()
 	{
 		if (this.method_37() == 0)
@@ -1219,7 +1219,7 @@ public class GClass0
 		return (int)((float)num2 / (float)num3 * 100f);
 	}
 
-	// Token: 0x060000C4 RID: 196 RVA: 0x00006544 File Offset: 0x00004744
+	
 	public int method_44()
 	{
 		for (int i = 0; i < 20; i++)
@@ -1237,7 +1237,7 @@ public class GClass0
 		return -1;
 	}
 
-	// Token: 0x060000C5 RID: 197 RVA: 0x00006594 File Offset: 0x00004794
+	
 	private void method_45()
 	{
 		this.timer_16.Tick += this.timer_16_Tick;
@@ -1261,7 +1261,7 @@ public class GClass0
 		this.stopwatch_8.Start();
 	}
 
-	// Token: 0x060000C6 RID: 198 RVA: 0x000066E8 File Offset: 0x000048E8
+	
 	public GClass0(int int_20)
 	{
 		this.method_45();
@@ -1274,7 +1274,7 @@ public class GClass0
 		this.string_6 = this.method_27();
 	}
 
-	// Token: 0x060000C7 RID: 199 RVA: 0x00006948 File Offset: 0x00004B48
+	
 	public void method_46()
 	{
 		this.timer_0.Dispose();
@@ -1304,7 +1304,7 @@ public class GClass0
 		this.class7_0.method_6();
 	}
 
-	// Token: 0x060000C8 RID: 200 RVA: 0x000030A1 File Offset: 0x000012A1
+	
 	public bool method_47()
 	{
 		return this.class7_0.method_1(new int[]
@@ -1316,7 +1316,7 @@ public class GClass0
 		}) == 1;
 	}
 
-	// Token: 0x060000C9 RID: 201 RVA: 0x000030C5 File Offset: 0x000012C5
+	
 	public int method_48()
 	{
 		return (int)(this.class7_0.method_2(new int[]
@@ -1331,7 +1331,7 @@ public class GClass0
 		}) * 100f);
 	}
 
-	// Token: 0x060000CA RID: 202 RVA: 0x000030EA File Offset: 0x000012EA
+	
 	public bool method_49()
 	{
 		return this.class7_0.method_1(new int[]
@@ -1343,7 +1343,7 @@ public class GClass0
 		}) == 1;
 	}
 
-	// Token: 0x060000CB RID: 203 RVA: 0x0000310E File Offset: 0x0000130E
+	
 	public void method_50(int int_20)
 	{
 		if (this.list_0.Count > 20)
@@ -1356,7 +1356,7 @@ public class GClass0
 		}
 	}
 
-	// Token: 0x060000CC RID: 204 RVA: 0x00006A68 File Offset: 0x00004C68
+	
 	public string method_51()
 	{
 		return string.Concat(new object[]
@@ -1369,7 +1369,7 @@ public class GClass0
 		});
 	}
 
-	// Token: 0x060000CD RID: 205 RVA: 0x00006AE4 File Offset: 0x00004CE4
+	
 	public string method_52()
 	{
 		return string.Concat(new object[]
@@ -1382,7 +1382,7 @@ public class GClass0
 		});
 	}
 
-	// Token: 0x060000CE RID: 206 RVA: 0x00006B60 File Offset: 0x00004D60
+	
 	public string method_53()
 	{
 		StringBuilder stringBuilder = new StringBuilder();
@@ -1457,7 +1457,7 @@ public class GClass0
 		return stringBuilder.ToString();
 	}
 
-	// Token: 0x060000CF RID: 207 RVA: 0x00006E20 File Offset: 0x00005020
+	
 	public void method_54(string string_7)
 	{
 		if (this.bool_5)
@@ -1507,7 +1507,7 @@ public class GClass0
 		}
 	}
 
-	// Token: 0x060000D0 RID: 208 RVA: 0x00007034 File Offset: 0x00005234
+	
 	public void method_55()
 	{
 		if (!this.bool_7)
@@ -1528,7 +1528,7 @@ public class GClass0
 		}
 	}
 
-	// Token: 0x060000D1 RID: 209 RVA: 0x00007168 File Offset: 0x00005368
+	
 	public void method_56()
 	{
 		this.timer_0.Tick -= this.timer_0_Tick;
@@ -1545,7 +1545,7 @@ public class GClass0
 		this.timer_11.Tick -= this.timer_11_Tick;
 	}
 
-	// Token: 0x060000D2 RID: 210 RVA: 0x0000728C File Offset: 0x0000548C
+	
 	public void method_57()
 	{
 		this.class2_0.method_1(this.method_6());
@@ -1594,7 +1594,7 @@ public class GClass0
 		this.class2_0.method_39(this.bool_8);
 	}
 
-	// Token: 0x060000D3 RID: 211 RVA: 0x00007614 File Offset: 0x00005814
+	
 	public void method_58()
 	{
 		this.class2_0 = new Class2(GClass3.smethod_0(this.method_38()));
@@ -1647,7 +1647,7 @@ public class GClass0
 		this.method_60();
 	}
 
-	// Token: 0x060000D4 RID: 212 RVA: 0x000079D0 File Offset: 0x00005BD0
+	
 	private string method_59()
 	{
 		if (GClass0.bool_0)
@@ -1669,7 +1669,7 @@ public class GClass0
 		return "Stoped";
 	}
 
-	// Token: 0x060000D5 RID: 213 RVA: 0x00007A40 File Offset: 0x00005C40
+	
 	public void method_60()
 	{
 		string text = GClass3.smethod_0(this.method_38());
@@ -1683,14 +1683,14 @@ public class GClass0
 		}));
 	}
 
-	// Token: 0x060000D6 RID: 214 RVA: 0x00003144 File Offset: 0x00001344
+	
 	public void method_61()
 	{
 		Class9.ShowWindow(this.intptr_0, 0);
 		Class8.smethod_1(this.int_12.ToString(), this.intptr_0.ToString());
 	}
 
-	// Token: 0x060000D7 RID: 215 RVA: 0x00007AA0 File Offset: 0x00005CA0
+	
 	public void method_62()
 	{
 		new Class5(this.intptr_0).method_8();
@@ -1708,7 +1708,7 @@ public class GClass0
 		this.intptr_0 = Class4.smethod_4(this.int_12);
 	}
 
-	// Token: 0x060000D8 RID: 216 RVA: 0x00007B18 File Offset: 0x00005D18
+	
 	public void method_63()
 	{
 		try
@@ -1726,7 +1726,7 @@ public class GClass0
 		}
 	}
 
-	// Token: 0x060000D9 RID: 217 RVA: 0x00003174 File Offset: 0x00001374
+	
 	public void method_64()
 	{
 		this.stopwatch_8.Reset();
@@ -1734,7 +1734,7 @@ public class GClass0
 		this.uint_0 = (uint)this.method_41();
 	}
 
-	// Token: 0x060000DA RID: 218 RVA: 0x00007B78 File Offset: 0x00005D78
+	
 	private long method_65(byte byte_0)
 	{
 		long value = 6847512L;
@@ -1769,250 +1769,250 @@ public class GClass0
 		return (long)((ulong)array2[0]);
 	}
 
-	// Token: 0x060000DB RID: 219
+	
 	[DllImport("kernel32.dll", SetLastError = true)]
 	private static extern bool ReadProcessMemory(IntPtr intptr_1, IntPtr intptr_2, [Out] byte[] byte_0, int int_20, out int int_21);
 
-	// Token: 0x0400000F RID: 15
+	
 	public static bool bool_0 = false;
 
-	// Token: 0x04000010 RID: 16
+	
 	public static bool bool_1 = false;
 
-	// Token: 0x04000011 RID: 17
+	
 	public static bool bool_2 = false;
 
-	// Token: 0x04000012 RID: 18
+	
 	public bool bool_3;
 
-	// Token: 0x04000013 RID: 19
+	
 	public bool bool_4;
 
-	// Token: 0x04000014 RID: 20
+	
 	public bool bool_5;
 
-	// Token: 0x04000015 RID: 21
+	
 	private bool bool_6;
 
-	// Token: 0x04000016 RID: 22
+	
 	public bool bool_7;
 
-	// Token: 0x04000017 RID: 23
+	
 	public bool bool_8;
 
-	// Token: 0x04000018 RID: 24
+	
 	public bool bool_9 = true;
 
-	// Token: 0x04000019 RID: 25
+	
 	public string string_0 = "F1";
 
-	// Token: 0x0400001A RID: 26
+	
 	public string string_1 = "F9";
 
-	// Token: 0x0400001B RID: 27
+	
 	public string string_2 = "F11";
 
-	// Token: 0x0400001C RID: 28
+	
 	public string string_3 = "F8";
 
-	// Token: 0x0400001D RID: 29
+	
 	public string string_4 = "F7";
 
-	// Token: 0x0400001E RID: 30
+	
 	public int int_0 = 50;
 
-	// Token: 0x0400001F RID: 31
+	
 	public int int_1 = 50;
 
-	// Token: 0x04000020 RID: 32
+	
 	public int int_2 = 50;
 
-	// Token: 0x04000021 RID: 33
+	
 	public int int_3 = 20;
 
-	// Token: 0x04000022 RID: 34
+	
 	public int int_4;
 
-	// Token: 0x04000023 RID: 35
+	
 	public int int_5;
 
-	// Token: 0x04000024 RID: 36
+	
 	public int int_6;
 
-	// Token: 0x04000025 RID: 37
+	
 	public int int_7 = 100;
 
-	// Token: 0x04000026 RID: 38
+	
 	public int int_8 = 50;
 
-	// Token: 0x04000027 RID: 39
+	
 	public bool bool_10;
 
-	// Token: 0x04000028 RID: 40
+	
 	public ulong ulong_0;
 
-	// Token: 0x04000029 RID: 41
+	
 	public int int_9;
 
-	// Token: 0x0400002A RID: 42
+	
 	public uint uint_0;
 
-	// Token: 0x0400002B RID: 43
+	
 	public static int int_10 = 50;
 
-	// Token: 0x0400002C RID: 44
+	
 	public static GDelegate1 gdelegate1_0;
 
-	// Token: 0x0400002D RID: 45
+	
 	public static GDelegate1 gdelegate1_1;
 
-	// Token: 0x0400002E RID: 46
+	
 	public static GDelegate2 gdelegate2_0;
 
-	// Token: 0x0400002F RID: 47
+	
 	public int int_11;
 
-	// Token: 0x04000030 RID: 48
+	
 	public string string_5 = "";
 
-	// Token: 0x04000031 RID: 49
+	
 	public string string_6 = "Khong biet";
 
-	// Token: 0x04000032 RID: 50
+	
 	public Stopwatch stopwatch_0 = new Stopwatch();
 
-	// Token: 0x04000033 RID: 51
+	
 	public Stopwatch stopwatch_1 = new Stopwatch();
 
-	// Token: 0x04000034 RID: 52
+	
 	public Stopwatch stopwatch_2 = new Stopwatch();
 
-	// Token: 0x04000035 RID: 53
+	
 	public Stopwatch stopwatch_3 = new Stopwatch();
 
-	// Token: 0x04000036 RID: 54
+	
 	public Stopwatch stopwatch_4 = new Stopwatch();
 
-	// Token: 0x04000037 RID: 55
+	
 	public Stopwatch stopwatch_5 = new Stopwatch();
 
-	// Token: 0x04000038 RID: 56
+	
 	public Stopwatch stopwatch_6 = new Stopwatch();
 
-	// Token: 0x04000039 RID: 57
+	
 	private Stopwatch stopwatch_7 = new Stopwatch();
 
-	// Token: 0x0400003A RID: 58
+	
 	public Stopwatch stopwatch_8 = new Stopwatch();
 
-	// Token: 0x0400003B RID: 59
+	
 	private Class2 class2_0;
 
-	// Token: 0x0400003C RID: 60
+	
 	public int int_12;
 
-	// Token: 0x0400003D RID: 61
+	
 	private Class7 class7_0;
 
-	// Token: 0x0400003E RID: 62
+	
 	public IntPtr intptr_0;
 
-	// Token: 0x0400003F RID: 63
+	
 	public int int_13;
 
-	// Token: 0x04000040 RID: 64
+	
 	public int int_14;
 
-	// Token: 0x04000041 RID: 65
+	
 	private Thread thread_0;
 
-	// Token: 0x04000042 RID: 66
+	
 	public System.Windows.Forms.Timer timer_0 = new System.Windows.Forms.Timer();
 
-	// Token: 0x04000043 RID: 67
+	
 	public System.Windows.Forms.Timer timer_1 = new System.Windows.Forms.Timer();
 
-	// Token: 0x04000044 RID: 68
+	
 	public System.Windows.Forms.Timer timer_2 = new System.Windows.Forms.Timer();
 
-	// Token: 0x04000045 RID: 69
+	
 	public System.Windows.Forms.Timer timer_3 = new System.Windows.Forms.Timer();
 
-	// Token: 0x04000046 RID: 70
+	
 	public System.Windows.Forms.Timer timer_4 = new System.Windows.Forms.Timer();
 
-	// Token: 0x04000047 RID: 71
+	
 	public System.Windows.Forms.Timer timer_5 = new System.Windows.Forms.Timer();
 
-	// Token: 0x04000048 RID: 72
+	
 	public System.Windows.Forms.Timer timer_6 = new System.Windows.Forms.Timer();
 
-	// Token: 0x04000049 RID: 73
+	
 	public System.Windows.Forms.Timer timer_7 = new System.Windows.Forms.Timer();
 
-	// Token: 0x0400004A RID: 74
+	
 	public System.Windows.Forms.Timer timer_8 = new System.Windows.Forms.Timer();
 
-	// Token: 0x0400004B RID: 75
+	
 	public System.Windows.Forms.Timer timer_9 = new System.Windows.Forms.Timer();
 
-	// Token: 0x0400004C RID: 76
+	
 	public System.Windows.Forms.Timer timer_10 = new System.Windows.Forms.Timer();
 
-	// Token: 0x0400004D RID: 77
+	
 	public System.Windows.Forms.Timer timer_11 = new System.Windows.Forms.Timer();
 
-	// Token: 0x0400004E RID: 78
+	
 	public System.Windows.Forms.Timer timer_12 = new System.Windows.Forms.Timer();
 
-	// Token: 0x0400004F RID: 79
+	
 	public System.Windows.Forms.Timer timer_13 = new System.Windows.Forms.Timer();
 
-	// Token: 0x04000050 RID: 80
+	
 	public System.Windows.Forms.Timer timer_14 = new System.Windows.Forms.Timer();
 
-	// Token: 0x04000051 RID: 81
+	
 	public System.Windows.Forms.Timer timer_15 = new System.Windows.Forms.Timer();
 
-	// Token: 0x04000052 RID: 82
+	
 	public System.Windows.Forms.Timer timer_16 = new System.Windows.Forms.Timer();
 
-	// Token: 0x04000053 RID: 83
+	
 	public System.Windows.Forms.Timer timer_17 = new System.Windows.Forms.Timer();
 
-	// Token: 0x04000054 RID: 84
+	
 	public System.Windows.Forms.Timer timer_18 = new System.Windows.Forms.Timer();
 
-	// Token: 0x04000055 RID: 85
+	
 	public System.Windows.Forms.Timer timer_19 = new System.Windows.Forms.Timer();
 
-	// Token: 0x04000056 RID: 86
+	
 	private int int_15;
 
-	// Token: 0x04000057 RID: 87
+	
 	private FormAlarm formAlarm_0;
 
-	// Token: 0x04000058 RID: 88
+	
 	private bool bool_11 = true;
 
-	// Token: 0x04000059 RID: 89
+	
 	private bool bool_12;
 
-	// Token: 0x0400005A RID: 90
+	
 	public bool bool_13 = true;
 
-	// Token: 0x0400005B RID: 91
+	
 	public int int_16 = 312;
 
-	// Token: 0x0400005C RID: 92
+	
 	public int int_17 = 60;
 
-	// Token: 0x0400005D RID: 93
+	
 	public int int_18 = 64;
 
-	// Token: 0x0400005E RID: 94
+	
 	public int int_19 = 8;
 
-	// Token: 0x0400005F RID: 95
+	
 	public List<int> list_0 = new List<int>();
 }
